@@ -51,6 +51,7 @@ public class OnlineShopping {
         book.displayDetails("Hardcover edition, 300 pages");
         gadget.displayDetails();
         gadget.displayDetails("Latest model with 5G");
+        Motor.displayDetails("New Land cruiser 300vx");
         buyProduct(book);
         buyProduct(gadget);
     }
