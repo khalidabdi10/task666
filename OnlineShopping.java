@@ -33,7 +33,6 @@ public class OnlineShopping {
 
     public static void main(String[] args) {
         Book book = new Book();
-        Book book1 = new Book();
         Electronics gadget = new Electronics();
         book.purchase();
         gadget.purchase();
@@ -42,7 +41,6 @@ public class OnlineShopping {
         gadget.displayDetails();
         gadget.displayDetails("Latest model with 5G");
         buyProduct(book);
-        buyProduct(book1);
         buyProduct(gadget);
     }
 }
