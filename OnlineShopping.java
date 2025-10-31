@@ -24,6 +24,14 @@ class Electronics extends Product {
     public void purchase() {
         System.out.println("Purchasing electronic gadget: Smartphone.");
     }
+
+    class Cars extends Product {
+        @Override
+        public void purchase() {
+            System.out.println("Purchasing car: Toyota landcruiser.");
+        }
+    }
+
 }
 
 public class OnlineShopping {
