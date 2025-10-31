@@ -54,6 +54,6 @@ public class OnlineShopping {
         Motor.displayDetails("New Land cruiser 300vx");
         buyProduct(book);
         buyProduct(gadget);
-        buyProduct(Motor);
+
     }
 }
