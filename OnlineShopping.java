@@ -25,13 +25,13 @@ class Electronics extends Product {
         System.out.println("Purchasing electronic gadget: Smartphone.");
     }
 
-    class Cars extends Product {
-        @Override
-        public void purchase() {
-            System.out.println("Purchasing car: Toyota landcruiser.");
-        }
-    }
+}
 
+class Cars extends Product {
+    @Override
+    public void purchase() {
+        System.out.println("Purchasing car: Toyota landcruiser.");
+    }
 }
 
 public class OnlineShopping {
@@ -42,6 +42,8 @@ public class OnlineShopping {
     public static void main(String[] args) {
         Book book = new Book();
         Electronics gadget = new Electronics();
+        Cars Motor = new Cars();
+
         book.purchase();
         gadget.purchase();
         book.displayDetails();
