@@ -46,6 +46,7 @@ public class OnlineShopping {
 
         book.purchase();
         gadget.purchase();
+        Motor.purchase();
         book.displayDetails();
         book.displayDetails("Hardcover edition, 300 pages");
         gadget.displayDetails();
